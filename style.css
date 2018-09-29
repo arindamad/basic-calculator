@@ -1,0 +1,93 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	}
+header {
+  float: left;
+  width: 100%;
+}	
+h3{
+	color:#eee;
+	float:left;
+	width:auto;
+	}	
+
+.calculator {
+ background: #492737;
+background: -moz-linear-gradient(-45deg, #492737 0%, #260712 100%);
+background: -webkit-linear-gradient(-45deg, #492737 0%,#260712 100%);
+background: linear-gradient(135deg, #492737 0%,#260712 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#492737', endColorstr='#260712',GradientType=1 );
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 400px;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  padding: 15px;
+}
+.rasult {
+  background: #f2f2f2 none repeat scroll 0 0;
+  border: 1px solid #000;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3) inset;
+  float: left;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  margin: 10px 0;
+  padding: 0 10px;
+  text-align: right;
+  width: 100%;
+}
+.ketpad ul {
+	width:100%;
+	float:left;
+	list-style:none;}	
+.ketpad ul li {
+  background: #666 none repeat scroll 0 0;
+  color: #eee;
+  float: left;
+  margin: 0.5%;
+  width: 19%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.ketpad {
+  float: left;
+  width: 100%;
+}
+.ketpad ul li button {
+  display: block;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  background: #5b3631;
+background: -moz-linear-gradient(top, #5b3631 0%, #4f0f0f 50%, #260a07 100%);
+background: -webkit-linear-gradient(top, #5b3631 0%,#4f0f0f 50%,#260a07 100%);
+background: linear-gradient(to bottom, #5b3631 0%,#4f0f0f 50%,#260a07 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b3631', endColorstr='#260a07',GradientType=0 );
+color:#eee;
+border:#5b3631 2px solid;
+cursor:pointer;
+}
+
+.ketpad ul li button:hover {
+	box-shadow:rgba(0,0,0,0.5) 0 0 10px inset;}
+
+.rightHeader {
+	background:#000;
+	height:15px;
+	border-radius:6px;
+	}
+.rightHeader {
+  background: #cccccc none repeat scroll 0 0;
+  border-radius: 6px;
+  float: right;
+  height: 15px;
+  width: 100px;
+}
