@@ -1,7 +1,7 @@
 var calVal = "";
 var operation = "";
 $('button.operation').on('click', function() {
-  operation = $(this).val();console.log("opeartion", operation);
+  operation = $(this).val();
 });
 $('button').on('click', function () {
   if ($(this).val() != '=') {
@@ -9,7 +9,7 @@ $('button').on('click', function () {
     calVal += numVal;
     $('.rasult').text(calVal);
     console.log(calVal);
-  } else {alert("x");
+  } else {
     if(operation != '') {
       switch(operation) {
         case '+':
